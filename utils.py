@@ -508,7 +508,7 @@ def exp_instability(pi_advers, sigma_list, n_pts=100, n_M=150, log_scale=False):
         c_star_list.append(M_list[res["idx_max"]])
         plt.subplot(1, len(sigma_list), i+1)
         plt.plot(M_list, -np.array(costs_list))
-        setup_plot(title=f"$\\sigma=${sigma}", xlabel="m", ylabel="GW cost", legend=False, show=False)
+        setup_plot(title=f"$\\sigma={sigma}_{i+1}$", xlabel="m", ylabel="GW cost", legend=False, show=False)
         if log_scale: plt.semilogy()
     plt.show()
 
