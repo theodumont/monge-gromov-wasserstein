@@ -10,7 +10,7 @@ You need to install `torch` (we recommend following the [official website instru
 ### Citation
 
 If you use this work for your research, please cite the paper:
-```
+```bibtex
 @article{dumont2022existence,
   title={On the Existence of Monge Maps for the Gromov-Wasserstein Problem},
   author={Dumont, Th{\'e}o and Lacombe, Th{\'e}o and Vialard, Fran{\c{c}}ois-Xavier},
